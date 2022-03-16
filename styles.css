@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+}
+.header{
+    text-align: center;
+    padding:50px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header h1{
+    font-size: 40px;
+}
+.header p{
+    font-size: large;
+}
+.tribute-img{
+    width: 95%;
+    margin-left:2%;
+}
+.tribute-img, .tribute-img p{
+    background-color: #FFFFFF;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.about-details h2{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.about-details li span{
+    font-size: 20px;
+    font-weight: bold;
+}
+  ul{
+      padding: 0px 400px;
+  }
+  
+  li {
+    margin: 16px 0;
+    font-size: 20px;
+  }
+  .message{
+      text-align: center;
+      padding: 30px 400px;
+  }
+  blockquote{
+      font-style: italic;
+      font-size: 20px;
+  }
+  cite{
+      font-size: 15px;
+  }
+
+  footer{
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 50px;
+  }
+  footer a{
+      text-decoration: none;
+      color: black;
+  }
+  @media  screen and (max-width:688px) {
+      .tribute-img img{
+          width: 60%;
+      }
+      .tribute-img, .tribute-img p{
+          padding: 0px 0px;
+      }
+      .header h1{
+        font-size: 20px;
+    }
+    .header p{
+        font-size: 15px;
+    }
+    ul{
+        padding: 0px 20px;
+    }
+    .about-details li span{
+        font-size: 10px;
+    }
+    li{
+        font-size: 10px;
+    }
+    .message{
+        padding: 0px 20px;
+        font-size: 10px;
+    }
+    footer{
+        font-size: 15px;
+    }
+  }
